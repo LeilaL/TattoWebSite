@@ -1,15 +1,25 @@
 /* Très petits écrans (smartphones, moins de 768px) */
 /* Propriétés générales */
 
-html body {
+*  {
   margin: 0;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../img/everlasting.gif) no-repeat center fixed;
+  background-size: cover;
+}
+
 /***********************HEADER***********************/
 header {
   width: 100%;
   background-color: white;
 }
 
+
+/**************BURGER BUTTON + MENU**********************/
 #burger:checked ~ .dropdown-content {
   width: 80%;
 }
@@ -80,13 +90,32 @@ input {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+/******************END OF BURGER/MENU **************/
 
-/*************MAIN******************/
-
-main {
-  background-image: url(img/everlasting.gif);
-  background-repeat: no-repeat;
+/******************FOOTER**************************/
+footer {
+  margin-top: 500px;
+  align-self: flex-end;
 }
+
+footer nav {
+  margin: 0 50px 0 60px;
+}
+
+ footer li {
+   list-style-type: none;
+   display: inline-block;
+   margin: 12px;
+ }
+
+ footer nav i {
+   color: rgb(250,250,250);
+ }
+
+ footer p{
+   text-align: center;
+   color: rgb(250,250,250);
+ }
 
 /************************************************
 *************************************************
