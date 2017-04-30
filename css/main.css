@@ -16,6 +16,13 @@ body {
 header {
   width: 100%;
   background-color: white;
+  display: flex;
+}
+
+img {
+  width: 2.5em;
+  height: 2.8em;
+
 }
 
 
