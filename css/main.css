@@ -8,7 +8,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../img/everlasting.gif) no-repeat center fixed;
+  background: url(../img/everlasting4.gif) no-repeat center fixed;
   background-size: cover;
 }
 
@@ -36,7 +36,7 @@ header {
   font-weight: bold;
 }
 
-input {
+header input {
   display: none;
 }
 
@@ -92,14 +92,46 @@ input {
 }
 /******************END OF BURGER/MENU **************/
 
+/******************MAIN****************************/
+main {
+  display: flex;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  margin-top: 350px;
+}
+
+form input {
+  border-radius: 1px;
+  background-color: white;
+  box-shadow: 1px 1px 1px grey;
+  border: 2px solid #696969;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+main form i {
+  position: absolute;
+  margin-left: 170px;
+  margin-top: 10px;
+}
+
 /******************FOOTER**************************/
 footer {
-  margin-top: 500px;
-  align-self: flex-end;
+  margin-top: 100px;
 }
 
 footer nav {
   margin: 0 50px 0 60px;
+  display: flex;
+}
+
+footer nav ul {
+  margin: auto;
 }
 
  footer li {
