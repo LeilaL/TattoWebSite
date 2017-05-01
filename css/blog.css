@@ -94,61 +94,44 @@ header input {
   transform: rotate(45deg);
 }
 
-/************* MAIN ****************************/
+/*******************CONTAINER**********************/
 
-.scontent li{
-  position:relative;
-  float:left;
-  width:100px;
-  height:100px;
-  padding:10px;
-  list-style:none;
-}
-/*permet de créer deux lignes*/
-.scontent li:nth-child(4n){clear:left;}
-
-.scontent li a{
-  display:block;
-  overflow:hidden;
-  width:100px;
-  height:100px;
-  margin-top:0px;
-  margin-left:0px;
-  border:0px solid rgba(0,0,0,0.7);
-  transition-property:width,height,margin,z-index,border;
-  transition-duration:0.4s;
+.containerb{
+  width: 90%;
+  margin: 5% auto;
+  color: white;
 }
 
-.scontent li a:hover{
-  position:absolute;
-  width:200px;
-  height:200px;
-  margin-top:-56px;
-  margin-left:-56px;
-  z-index:100;
-  border:6px solid rgba(0,0,0,0.7);
+.containerb h1{
+  margin: 5% auto;
+  border-left: 2px #650d1b solid;
+  border-right: 2px #650d1b solid;
+  padding: 0 5%;
 }
 
-.scontent li a img{
-  position:absolute;
-  width:100px;
-  height:100px;
-  z-index:20;
-  transition-property:width,height,z-index;
-  transition-duration:0.4s;
+.containerb h1{
+  font-size: 30px;
 }
 
-.scontent li a:hover img{
-  width:200px;
-  height:200px;
-  z-index:100;
+.containerb article{
+  margin: 5% 0;
+  border: 1px lightgrey solid;
+  padding: 10px;
 }
 
-.photo img {
-  display: block;
-  margin: 10px;
+.containerb article img {
+  width: 40%;
+  height: 40%;
+  margin-left: 70px;
 }
 
+.containerb p{
+  text-align: justify;
+}
+
+.containerb h2{
+  margin-bottom: 5%;
+}
 
 /******************FOOTER**************************/
 span a{
@@ -160,7 +143,7 @@ span a{
 }
 
 footer {
-  margin-top: 120%;
+  margin-top: 20%;
 }
 
 footer nav {
@@ -188,18 +171,52 @@ footer nav ul {
    color: rgb(250,250,250);
  }
 
+ /************************************************
+ *************************************************
+ ***** Petits écrans (tablettes) *****************
+ ************************************************/
 
-/************************************************
-*************************************************
-***** Petits écrans (tablettes) *****************
-************************************************/
+ @media (min-width: 600px) {
 
-@media (min-width: 600px) {
+span a {
+   margin-top: 0;
+}
 
+ }
 
-/************************************************
-*************************************************
-**** Ecrans moyens (desktops) *******************
-************************************************/
+ /************************************************
+ *************************************************
+ **** Ecrans moyens (desktops) *******************
+ ************************************************/
 
-@media (min-width:900px) {
+ @media (min-width:900px) {
+
+   /***********************HEADER***********************/
+
+header label,div {
+   display: none;
+}
+
+.containerb, .b {
+   display: block;
+}
+
+  .dropdown-content {
+   display: inline-flex;
+   justify-content: space-around;
+   margin-left: 20%;
+   width: 50%;
+   margin-top: 8px;
+  }
+
+.containerb article img {
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+}
+
+.containerb article figcaption {
+  display: inline-block;
+}
+
+}
