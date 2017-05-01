@@ -22,7 +22,6 @@ header {
 img {
   width: 2.5em;
   height: 2.8em;
-
 }
 
 
@@ -124,7 +123,7 @@ form input {
 main form i {
   position: absolute;
   margin-left: 170px;
-  margin-top: 10px;
+  margin-top: 18px;
 }
 
 /******************FOOTER**************************/
@@ -158,13 +157,63 @@ footer nav ul {
 
 /************************************************
 *************************************************
-***** Petits écrans (tablettes, 768px et plus) **
+***** Petits écrans (tablettes) *****************
 ************************************************/
 
+@media (min-width: 600px) {
 
+body {
+  background: url(../img/everlastingtab.gif) no-repeat center fixed;
+}
+
+form {
+  position: absolute;
+  left: 40%;
+  top: 38%;
+}
+
+/******************FOOTER**************************/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-left: 30%;
+}
+
+footer nav {
+  display: flex;
+}
+
+
+}
 
 
 /************************************************
 *************************************************
-**** Ecrans moyens (desktops, 992px et plus)*****
+**** Ecrans moyens (desktops) *******************
 ************************************************/
+
+@media (min-width:900px) {
+
+body {
+  background: url(../img/everlasting.gif) no-repeat center fixed;
+}
+
+/***********************HEADER***********************/
+
+header label,div {
+  display: none;
+}
+
+.dropdown-content {
+  display: inline-flex;
+  justify-content: space-around;
+  margin-left: 20%;
+  width: 50%;
+  margin-top: 8px;
+}
+
+
+
+
+}
