@@ -166,6 +166,8 @@ body {
   background: url(../img/everlastingtab.gif) no-repeat center fixed;
 }
 
+/******************MAIN****************************/
+
 form {
   position: absolute;
   left: 40%;
@@ -197,6 +199,7 @@ footer nav {
 
 body {
   background: url(../img/everlasting.gif) no-repeat center fixed;
+  background-size: cover;
 }
 
 /***********************HEADER***********************/
@@ -213,6 +216,18 @@ header label,div {
   margin-top: 8px;
 }
 
+/******************MAIN****************************/
+
+form {
+  left: 43%;
+  top: 0;
+}
+
+/******************FOOTER**************************/
+
+footer {
+  margin: 0 0 10px 40%;
+}
 
 
 
