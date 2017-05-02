@@ -31,9 +31,9 @@ img {
 }
 
 .dropdown-content {
-   width: 0;
-   overflow: hidden;
-   list-style-type: none;
+  width: 0;
+  overflow: hidden;
+  list-style-type: none;
 }
 
 .dropdown-content a {

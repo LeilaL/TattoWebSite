@@ -6,7 +6,7 @@
 }
 
 body {
-background-image:linear-gradient(60deg, grey, black);
+  background-image:linear-gradient(60deg, grey, black);
 }
 /***********************HEADER***********************/
 
@@ -28,9 +28,9 @@ img {
 }
 
 .dropdown-content {
-   width: 0;
-   overflow: hidden;
-   list-style-type: none;
+  width: 0;
+  overflow: hidden;
+  list-style-type: none;
 }
 
 .dropdown-content a {
@@ -205,18 +205,18 @@ footer nav ul {
 }
 
  footer li {
-   list-style-type: none;
-   display: inline-block;
-   margin: 12px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 12px;
  }
 
  footer nav i {
-   color: rgb(250,250,250);
+  color: rgb(250,250,250);
  }
 
  footer p{
-   text-align: center;
-   color: rgb(250,250,250);
+  text-align: center;
+  color: rgb(250,250,250);
  }
 
  /************************************************
